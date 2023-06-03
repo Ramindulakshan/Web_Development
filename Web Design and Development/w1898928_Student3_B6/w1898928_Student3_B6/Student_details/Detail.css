@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 30px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(48, 74, 69);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.8s ease;
+    border-radius: 20px;
+}
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(48, 67, 45);
+    position: static;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar .navbar-brand {
+    float: left;
+    display: block;
+    color: rgb(48, 67, 45);
+    text-align: center;
+    padding: 6.7px 14px;
+    text-decoration: none;
+}
+
+.navbarbo .navbar-brand {
+    float: left;
+    display: block;
+    color: rgb(48, 67, 45);
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar .navbar-brand:hover {
+    background: rgb(48, 67, 45);
+    color: black;
+}
+
+.navbarbo {
+    overflow: hidden;
+    background-color: rgb(48, 67, 45);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbarbo a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbarbo a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbarbo .navbar-brand:hover {
+    background: rgb(48, 67, 45);
+    color: black;
+}

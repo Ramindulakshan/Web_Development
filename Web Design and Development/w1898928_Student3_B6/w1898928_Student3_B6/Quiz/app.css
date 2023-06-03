@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#body {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.start_ques_box {
+    max-width: 550px;
+    height: 350px;
+    margin: 70px auto;
+    padding: 80px;
+    border-radius: 50px;
+    background-color: #b6c3b6;
+}
+
+.start_ques_box h1 {
+    font-size: 70px;
+    color: #051367;
+    font-weight: 800;
+    margin-bottom: 45px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.start_ques_box p {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.start_ques_box p span {
+    font-weight: 600;
+    color: #051367;
+}
+
+.start_ques_box .btn {
+    margin-top: 20px;
+    position: right;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 16px 47px;
+    background-color: #051367;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.ques_box {
+    max-width: 700px;
+    background-color: #b6c3b6;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.ques_box .ques_number {
+    font-size: 35px;
+    color: black;
+    font-weight: 800;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+    line-height: 25px;
+    text-align: top;
+}
+
+.ques_box .ques {
+    font-size: 28px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 40px 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.ques_box .btn {
+    margin-right: 150px;
+}
+
+.results_box {
+    max-width: 700px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.results_box .results {
+    margin-left: 0px;
+    font-size: 40px;
+    line-height: 42px;
+    color: #051367;
+}
+
+.results_box table {
+    width: 100%;
+    border-collapse: initial;
+    margin: 30px 0;
+}
+
+.results_box table th,
+.results_box table td {
+    border: 1px solid #cccccc;
+    padding: 8px 15px;
+    font-weight: 500;
+    color: #000000;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.results_box .total {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.editpage {
+    position: relative;
+    text-align-last: right;
+    right: 3%;
+    top: 3vh;
+    margin-top: 10px;
+}
+
+.editpage img {
+    position: relative;
+    margin: 0px;
+    text-align-last: right;
+    right: 1%;
+    border-radius: 30px;
+}
+
+.editpage img:hover {
+    opacity: 0.7;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(48, 67, 45);
+    position: static;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar .navbar-brand {
+    float: left;
+    display: block;
+    color: rgb(48, 67, 45);
+    text-align: center;
+    padding: 6.7px 14px;
+    text-decoration: none;
+}
+
+.navbarbo .navbar-brand {
+    float: left;
+    display: block;
+    color: rgb(48, 67, 45);
+    text-align: center;
+    padding: 7px 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar .navbar-brand:hover {
+    background: rgb(48, 67, 45);
+    color: black;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(48, 67, 45);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.navbarbo {
+    overflow: hidden;
+    background-color: rgb(48, 67, 45);
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbarbo a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbarbo a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbarbo .navbar-brand:hover {
+    background: rgb(48, 67, 45);
+    color: black;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(48, 67, 45);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}

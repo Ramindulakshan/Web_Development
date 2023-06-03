@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(1996_1.jpg);
+    /* background-image: url(sri-lanka-1996.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(T20\(1\).jpg);
+    /* background-image: url(sri-lanka-1996.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: rgb(231, 223, 223);
+    font-size: 100px;
+}
+
+.card01 {
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card02 {
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(96\(2\).jpg);
+}
+
+.card2 {
+    background-image: url(96\(3\).jpg);
+}
+
+.card3 {
+    background-image: url(T20\(2\).jpg);
+}
+
+.card4 {
+    background-image: url(T20\(3\).jpg);
+}
+
+.card5 {
+    background-image: url(T20\(4\).webp);
+}
+
+.card6 {
+    background-image: url(T20\(5\).jpg);
+}
+
+.card01:hover {
+    transform: translateY(-10px);
+}
+
+.card02:hover {
+    transform: translateY(-10px);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(48, 67, 45);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar .navbar-brand {
+    float: left;
+    display: block;
+    color: rgb(48, 67, 45);
+    text-align: center;
+    padding: 6.7px 14px;
+    text-decoration: none;
+}
+
+.navbarbo .navbar-brand {
+    float: left;
+    display: block;
+    color: rgb(48, 67, 45);
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar .navbar-brand:hover {
+    background: rgb(48, 67, 45);
+    color: black;
+}
+
+.navbarbo {
+    overflow: hidden;
+    background-color: rgb(48, 67, 45);
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbarbo a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbarbo a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbarbo .navbar-brand:hover {
+    background: rgb(48, 67, 45);
+    color: black;
+}
